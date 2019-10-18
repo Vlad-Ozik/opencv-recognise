@@ -23,12 +23,13 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Opencvrecognition", "index.html", [
-    [ "Packages", "namespaces.html", [
-      [ "Packages", "namespaces.html", "namespaces_dup" ],
-      [ "Package Functions", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
+    [ "README", "md__r_e_a_d_m_e.html", null ],
+    [ "Пакеты", "namespaces.html", [
+      [ "Пакеты", "namespaces.html", "namespaces_dup" ],
+      [ "Функции с областью видимости пакета", "namespacemembers.html", [
+        [ "Указатель", "namespacemembers.html", null ],
+        [ "Функции", "namespacemembers_func.html", null ],
+        [ "Переменные", "namespacemembers_vars.html", null ]
       ] ]
     ] ]
   ] ]
@@ -39,5 +40,5 @@ var NAVTREEINDEX =
 "index.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';
+var SYNCOFFMSG = 'нажмите на включить для синхронизации панелей';

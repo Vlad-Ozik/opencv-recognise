@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['Сервер_24',['Сервер',['../namespace_xD0_xA1_xD0_xB5_xD1_x80_xD0_xB2_xD0_xB5_xD1_x80.html',1,'']]]
+  ['url_5fimg_25',['URL_IMG',['../namespaceserver.html#a910d5613854da86ff7acf745668424c8',1,'server']]]
 ];
