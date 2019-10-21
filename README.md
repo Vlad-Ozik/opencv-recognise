@@ -1,1 +1,1 @@
-Opencv recognise program. Выбрать изображение, контур которого нужно будет найти и прописать к нему путь в файле server.py, параметр URL_IMG (примеры есть в папке images). После запустить client.py и server.py
+Opencv recognise program. Select the image contour which will need to find and register the path to it in config.py file option URL_IMG (examples are in the images folder). After run client.py and server.py
