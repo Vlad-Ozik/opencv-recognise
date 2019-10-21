@@ -18,10 +18,10 @@ var indexSectionNames =
 
 var indexSectionLabels =
 {
-  0: "Указатель",
-  1: "Пространства имен",
-  2: "Функции",
-  3: "Переменные",
-  4: "Страницы"
+  0: "All",
+  1: "Namespaces",
+  2: "Functions",
+  3: "Variables",
+  4: "Pages"
 };
 

@@ -21,11 +21,11 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Титульная страница",url:"index.html"},
-{text:"Описания",url:"pages.html"},
-{text:"Пакеты",url:"namespaces.html",children:[
-{text:"Пакеты",url:"namespaces.html"},
-{text:"Функции с областью видимости пакета",url:"namespacemembers.html",children:[
-{text:"Указатель",url:"namespacemembers.html"},
-{text:"Функции",url:"namespacemembers_func.html"},
-{text:"Переменные",url:"namespacemembers_vars.html"}]}]}]}
+{text:"Main Page",url:"index.html"},
+{text:"Related Pages",url:"pages.html"},
+{text:"Packages",url:"namespaces.html",children:[
+{text:"Packages",url:"namespaces.html"},
+{text:"Package Functions",url:"namespacemembers.html",children:[
+{text:"All",url:"namespacemembers.html"},
+{text:"Functions",url:"namespacemembers_func.html"},
+{text:"Variables",url:"namespacemembers_vars.html"}]}]}]}

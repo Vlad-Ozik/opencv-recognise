@@ -1,18 +1,17 @@
 ## @package client
 #
-# Считывает поток с камеры, и отправляет на сервер
+# Reads a stream from the camera, and sends it to the server
 import requests
 import json
 import cv2
+from config import ADDR, URL_IMG
 
-## Адрес сервера
-addr = 'http://0.0.0.0:5000/'
 
-## META данные для отправки сообщения
+## META data for sending message
 content_type = 'image/jpeg'
 headers = {'content-type': content_type}
 
-## Ссылка на объект стрима 
+## Link to the stream object 
 cap = cv2.VideoCapture(0)
 
 while True:
@@ -20,8 +19,8 @@ while True:
     img = cv2.flip(img_l, 1)
     _, img_encoded = cv2.imencode('.jpg', img)
     try:
-        response = requests.post(addr, data=img_encoded.tostring(), \
-                    headers=headers)
+        response = requests.post(ADDR, data=img_encoded.tostring(), \
+                                 headers=headers)
     except:
         print('No access')
     cv2.imshow('stream', img)
